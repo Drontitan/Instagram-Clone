@@ -1,0 +1,288 @@
+* {
+    margin: 0;
+    top: 0;
+}
+
+.Navbar {
+    display: flex;
+    width: 100%;
+    height: 70px;
+     
+    position: sticky;
+    border-bottom: 1px solid rgb(68, 67, 67);
+}
+
+.img {
+    padding-top: 23px;
+    margin-left: 330px;
+}
+
+.searchbox {
+    padding-top: 20px;
+    margin-left: 300px;
+}
+
+.searchbox>input {
+    width: 220px;
+    height: 30px;
+    text-align: center;
+    justify-content: center;
+    background-color: #fafafa;
+    cursor: text;
+    outline: none;
+}
+
+.right {
+    display: flex;
+}
+
+.left {
+    display: flex;
+    width: 1130px;
+}
+
+.material-icons-outlined {
+    padding: 9px;
+}
+
+.material-icons-outlined>img {
+    padding-top: 12px;
+    cursor: pointer;
+    height: 30px;
+}
+
+.bodymain {
+    position: relative;
+    display: flex;
+    padding-top: 30px;
+    background: #fafafa;
+    height: 100rem;
+
+}
+
+.leftslidebar {
+
+    border: 1px solid rgb(190, 186, 186);
+    height: 75px;
+    margin-left: 330px;
+    width: 660px;
+    padding-top: 55px;
+    background: white;
+
+}
+
+.leftslidebar>span {
+    border: 1px solid rgb(240, 133, 11);
+    padding: auto;
+}
+
+.material-icons-outlined-leftslidebar {
+    /* padding: 10px; */
+}
+
+span.material-icons-outlined-leftslidebar {
+    padding: 27px 37px;
+    border-radius: 100px;
+    margin: 10px;
+}
+
+.content {
+    border: 1px solid rgb(190, 186, 186);
+    height: 965px;
+    margin-left: 330px;
+    width: 660px;
+     margin-top: 30px;
+    background: white;
+}
+
+.top {
+    display: flex;
+    height: 30px;
+    padding-top: 19px;
+}
+
+.material-icons-outlined-top2 {
+    margin-left: 310px;
+}
+
+p-top {
+    margin-left: 20px;
+    width: 260px;
+}
+
+.mid {
+    height: 830px;
+}
+
+.mainphotu {
+    width: 660px;
+}
+
+.midimg {
+    /* padding: 6px; */
+    display: flex;
+}
+
+.material-icons-outlined-mid {
+    padding: 7px;
+
+}
+
+.material-icons-outlined-mid>img {
+    height: 30px;
+    cursor: pointer;
+}
+
+.leftmid {
+    margin-left: 460px;
+    padding-top: 10px;
+}
+
+p-mid {
+    padding: 10px;
+}
+
+.bottom {
+    display: flex;
+    /* padding:3px; */
+    margin-top: 17px;
+}
+
+input-bottom {
+    /* padding: 10px; */
+    margin-top: 13px;
+    margin-left: 10px;
+    width: 600px;
+    outline: none;
+   
+}
+input-bottom:focus{
+   outline: none;
+}
+.post {
+    margin-top: 13px;
+    margin-left: 370px;
+    color: rgb(21, 225, 240);
+    font-weight: 200;
+    font-size: 19px;
+    cursor: pointer;
+      
+}
+.rightslidebar{
+    margin-top: 0;
+    height: 100px;
+    width: 200px;
+    border: 1px solid black;
+    margin-left: 1000px;
+}
+.right-content{
+    /* border: 1px solid black; */
+    height: 1000px;
+    width: 500px;
+    margin-left: 40px;
+    position: sticky;
+    
+}
+.rightcircle {
+    width: 66px;
+    height: 67px;
+    border: 1px solid black;
+    border-radius: 100px;
+    margin: 33px;
+    margin-left: 1px;
+}
+.rightlsidebar {
+    display: flex;
+}
+h6 {
+    margin-top: 47px;
+    font-size: 18px;
+    margin-left: -11px;
+}
+p.right {
+    font-size: 14px;
+    color: grey;
+      margin-left: -9px;
+}
+p.right1 {
+    font-size: 14px;
+    color: grey;
+    margin-left: -16px;
+    width: 123px;
+}
+p.switch {
+    margin-left: 109px;
+    margin-top: 59px;
+    color: #00d0ff;
+    cursor: pointer;
+}
+h5 {
+    font-size: 19px;
+    color: gray;
+    margin-top: -16px;
+}
+.suggestion{
+    display: flex;
+}
+p.seeall {
+    margin-left: 125px;
+    margin-top: -14px;
+}
+.alllist{
+    display: flex;
+}
+.smallcircle {
+    width: 36px;
+    height: 36px;
+    border: 1px solid black;
+    border-radius: 100px;
+    margin: 33px;
+    margin-left: 1px;
+}
+
+.small {
+    margin-left: -18px;
+    margin-top: 34px;
+    /* margin-right: 38px;/ */
+    width: 90px;
+}
+.follow {
+    margin-left: 97px;
+    margin-top: 45px;
+    color: #00d0ff;
+    cursor: pointer;
+}
+.alllist1 {
+    display: flex;
+    margin-top: -51px;
+}
+.alllist2{
+    display: flex;
+    margin-top: -51px;
+}
+.alllist3{
+    display: flex;
+    margin-top: -51px;
+}
+.alllist4{
+    display: flex;
+    margin-top: -51px;
+}
+.rightbottom{
+    display: flex;
+}
+p.bottom {
+    color: gray;
+    font-size: 12px;
+}
+p.bottom {
+    color: gray;
+    font-size: 12px;
+    padding: 2px;
+    cursor: pointer;
+}
+p.copy {
+    color: gray;
+    font-size: 12px;
+    margin-top: 24px;
+}
